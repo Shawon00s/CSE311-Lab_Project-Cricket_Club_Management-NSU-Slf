@@ -53,7 +53,7 @@ Detailed SQL scripts are provided in the repository to set up the database schem
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/Shawon00s/CSE311-Lab_Project-Cricket_Club_Management-Slf.git
    ```
 2. Set up a local server using tools like XAMPP or WAMP.
 3. Import the provided SQL scripts to create the database schema.
