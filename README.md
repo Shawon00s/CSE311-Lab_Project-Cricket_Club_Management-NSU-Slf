@@ -1,158 +1,125 @@
 # Cricket Club Management System
 
 ## Overview
-
-The **Cricket Club Management System** is a comprehensive platform designed to streamline the management of cricket clubs in Bangladesh. It facilitates club administration, player statistics tracking, match scheduling, venue management, and historical record-keeping.
-
-This system modernizes cricket club operations by replacing manual methods with a digital solution that is efficient, user-friendly, and reliable.
-
-
-## Directory structure
-
-```
-CSE311-Lab_Project-Cricket_Club_Management-Slf
-                                            └── README.md
-                                            ├── connect.php
-                                            ├── Admin/
-                                            │   ├── admin-add-club-achievement.php
-                                            │   ├── admin-add-club-captain.php
-                                            │   ├── admin-add-club-coach.php
-                                            │   ├── admin-add-player-statistics.php
-                                            │   ├── admin-add-transfer.php
-                                            │   ├── admin-display-club-achievement.php
-                                            │   ├── admin-display-club-captain.php
-                                            │   ├── admin-display-club-coach.php
-                                            │   ├── admin-display-club.php
-                                            │   ├── admin-display-management-committee.php
-                                            │   ├── admin-display-match.php
-                                            │   ├── admin-display-player-statistics.php
-                                            │   ├── admin-display-player.php
-                                            │   ├── admin-display-playing-style.php
-                                            │   ├── admin-display-venue.php
-                                            │   ├── delete-club-captain.php
-                                            │   ├── delete-club-coach.php
-                                            │   ├── delete-management-committee.php
-                                            │   ├── delete-match.php
-                                            │   ├── delete-player-statistics.php
-                                            │   ├── delete-player.php
-                                            │   ├── delete-venue.php
-                                            │   ├── main.php
-                                            │   ├── update-allrounder.php
-                                            │   ├── update-batsman.php
-                                            │   ├── update-bowler.php
-                                            │   ├── update-club-captain.php
-                                            │   ├── update-club-coach.php
-                                            │   ├── update-club.php
-                                            │   ├── update-management-committee.php
-                                            │   ├── update-match.php
-                                            │   ├── update-player-statistics.php
-                                            │   ├── update-player.php
-                                            │   ├── update-playing-style.php
-                                            │   ├── update-venue.php
-                                            │   ├── update-wicketkeeper.php
-                                            │   └── partials/
-                                            │       ├── footer.php
-                                            │       ├── header-dark.php
-                                            │       └── header.php
-                                            ├── User-Site/
-                                            │   ├── add-club.php
-                                            │   ├── add-management-committee.php
-                                            │   ├── add-match.php
-                                            │   ├── add-player-statistics.php
-                                            │   ├── add-player.php
-                                            │   ├── add-venue.php
-                                            │   ├── display-batsman.php
-                                            │   ├── display-bowler.php
-                                            │   ├── display-club-achievement.php
-                                            │   ├── display-club-captain.php
-                                            │   ├── display-club-coach.php
-                                            │   ├── display-club.php
-                                            │   ├── display-management-committee.php
-                                            │   ├── display-match.php
-                                            │   ├── display-player-statistics.php
-                                            │   ├── display-player.php
-                                            │   ├── display-venue.php
-                                            │   ├── index.php
-                                            │   ├── landing-page.php
-                                            │   ├── login.php
-                                            │   ├── user-signup.php
-                                            │   └── partials/
-                                            │       ├── footer.php
-                                            │       └── header.php
-                                            └── resources/
-
-```
+The **Cricket Club Management System** is a robust, web-based application architected to facilitate the comprehensive administration of cricket clubs across Bangladesh. This system is meticulously designed to provide a seamless interface for club governance, encompassing functionalities such as player performance tracking, match orchestration, venue allocation, and historical record maintenance. By employing a structured paradigm, the platform ensures the efficient execution of club operations, streamlined player transfers, meticulous documentation of match outcomes, and the systematic recording of club achievements. Furthermore, the system is engineered to enhance the user experience through an intuitive frontend, coupled with a highly optimized backend infrastructure to support data management and retrieval.
 
 ## Features
+### 1. **📊 Administrative Dashboard**
+   - 🏏 Grants full-spectrum control over cricket club functionalities.
+   - 🛠️ Facilitates the addition, modification, and removal of clubs, players, and venue records.
+   - 🔄 Orchestrates player transfers with complete oversight of contract values and dates.
+   - 🔐 Implements robust authentication and role-based access control to ensure data integrity.
 
-### Core Modules
-1. **Admin Panel**:
-   - Add, update, and delete club, player, and venue data.
-   - Manage player transfers and match results.
+### 2. **🏆 Club Administration Module**
+   - 📜 Centralizes club-specific details such as history, contact information, and structural organization.
+   - 🏅 Maintains a log of club accolades and significant milestones.
+   - 🏟️ Oversees the appointment of captains, coaches, and managerial personnel.
+   - 📅 Ensures the dynamic allocation of leadership roles with predefined timelines.
 
-2. **Club Management**:
-   - Maintain club details, including history, contact information, and management committee records.
-   - Assign captains and coaches with defined timelines.
+### 3. **📅 Match Coordination System**
+   - 🏏 Streamlines match scheduling by integrating venue assignments and fixture details.
+   - 🔄 Maintains real-time updates of match results and player statistics.
+   - 📊 Generates analytical reports for performance assessment and historical reference.
 
-3. **Match Module**:
-   - Schedule matches with venue details.
-   - Record match results and update player statistics.
+### 4. **📈 Player Performance Analytics**
+   - ⚾ Records granular statistics, including runs scored, wickets taken, and fielding metrics.
+   - 🏅 Categorizes athletes based on roles such as batsman, bowler, all-rounder, and wicketkeeper.
+   - 🏆 Establishes a historical database for longitudinal performance evaluation.
 
-4. **Player Statistics**:
-   - Track player performance metrics (e.g., runs scored, wickets taken, catches).
-   - Manage specific player roles such as batsman, bowler, wicketkeeper, and all-rounder.
+### 5. **🏟️ Venue Management System**
+   - 📍 Catalogs and maintains a registry of match venues, inclusive of location data and capacity constraints.
+   - 📅 Facilitates venue bookings for competitive fixtures and practice sessions.
 
-5. **Achievements and History**:
-   - Display milestones and achievements of cricket clubs.
+### 6. **🔄 Player Transfer Mechanism**
+   - 🏏 Manages inter-club player transfers, ensuring accurate tracking of transfer histories.
+   - 💰 Logs contractual agreements, transfer valuations, and respective transaction timestamps.
 
-6. **User Registration**:
-   - Allow users to register and view club and player data with restricted access.
+### 7. **🎖️ Club Achievements and Legacy**
+   - 📜 Chronicles club accolades, distinguishing competitive successes and historical benchmarks.
+   - 📚 Archives detailed historical records for institutional reference and statistical analysis.
 
-### Database Structure
-The system is powered by a MySQL database, featuring tables such as:
-- `admin`
-- `user`
-- `club` (with related tables for contact, captains, and coaches)
-- `player` (categorized by roles like batsman, bowler, and all-rounder)
-- `match` and `venue`
-- `player_statistics`
-- `club_achievements`
+### 8. **🔐 User Authentication & Controlled Access**
+   - 🛡️ Implements a multi-tiered authentication framework for enhanced security.
+   - 🔑 Allows tier-based access to club and player databases with defined permissions.
 
-Detailed SQL scripts are provided in the repository to set up the database schema.
+## 📌 Technology Stack
+- **🖥️ Frontend**: HTML, CSS, Tailwind CSS, JavaScript
+- **🗄️ Backend**: PHP
+- **🛢️ Database**: MySQL
+- **🛠️ Development Tools**: Visual Paradigm for ERD modeling, Visual Studio Code, Local server stack (XAMPP/WAMP/LAMP)
 
-### Technology Stack
-- **Frontend**: HTML, CSS, Tailwind CSS
-- **Backend**: PHP
-- **Database**: MySQL
-- **Development Tools**: Visual Studio Code, Visual Paradigm (for ERD design)
+## 📂 Project Directory Structure
+```
+CSE311-Lab_Project-Cricket_Club_Management-NSU-Slf/
+├── 🏛️ Admin/                             # Administrative control panel
+├── 📄 Project Report/                    # Documentation and analytical reports
+├── 🌐 User-Site/                         # User interface and front-end components
+├── 📁 resources/                         # Supplementary assets and dependencies
+├── 🔗 connect.php                        # Database connectivity configuration
+├── 🗄️ cricket-club-managementdb.sql      # SQL schema for relational database setup
+└── 📜 README.md                          # Comprehensive documentation
+```
 
-## Installation and Setup
+## 🏗️ System Illustrations
+### Project Report
+![Project Report](Project%20Report/PNGs/Final_Project_Report-01.png)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-02.png)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-03.png)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Shawon00s/CSE311-Lab_Project-Cricket_Club_Management-Slf.git
-   ```
-2. Set up a local server using tools like XAMPP or WAMP.
-3. Import the provided SQL scripts to create the database schema.
-4. Configure the `config.php` file with your database credentials.
-5. Launch the application in your local server environment.
+### Entity Relationship Diagram
+<img src="Project Report/Entity Relationship Diagram.png">
 
-## Usage
+### Entity Relationship Diagram
+![Project Report](Project%20Report/PNGs/Final_Project_Report-05.png)
 
-- Admins can manage clubs, players, and match schedules through the admin panel.
-- Users can register to access club and player details.
-- Detailed reports on matches and player performance are available in the dashboard.
+### SQL DDL
+![Project Report](Project%20Report/PNGs/Final_Project_Report-06.png)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-07.png)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-08.png)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-09.png)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-10.png)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-11.png)
 
-## Contributors
+### Project UI (User Site)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-12.png)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-13.png)
+### Project UI (Admin)
+![Project Report](Project%20Report/PNGs/Final_Project_Report-14.png)
 
-- **Sudipto Roy** (ID: 2222756042)  
-- **Aqib Ahmed** (ID: 2211335042)  
+### Conclusion
+![Project Report](Project%20Report/PNGs/Final_Project_Report-15.png)
 
-## Conclusion
+## 🚀 Deployment Instructions
+### 1️⃣ Repository Cloning
+```bash
+git clone https://github.com/Shawon00s/CSE311-Lab_Project-Cricket_Club_Management-NSU-Slf.git
+```
 
-This project provides a unified platform for managing cricket clubs in Bangladesh, offering tools to track players, matches, venues, and achievements efficiently. It supports the growth of cricket clubs while preserving their historical records and improving organizational management.
+### 2️⃣ Navigate to the Project Directory
+```bash
+cd CSE311-Lab_Project-Cricket_Club_Management-NSU-Slf
+```
 
-## License
+### 3️⃣ Database Initialization
+- 📥 Import `cricket-club-managementdb.sql` via MySQL CLI or phpMyAdmin.
 
-This project is licensed under the [MIT License](LICENSE).
+### 4️⃣ Configure Database Connectivity
+- 🔧 Modify `connect.php` to specify database credentials and connection parameters.
 
+### 5️⃣ Application Deployment
+- ☁️ Host the application on a local or cloud-based PHP-MySQL server environment.
+- 📂 Deploy files within the web root directory (e.g., `htdocs` for XAMPP).
+- 🌍 Access the system via an appropriate browser-based interface.
+
+## ⚙️ Operational Guidelines
+1. **🔐 User Authentication & Access Control**
+2. **📂 Club & Player Management**
+3. **📊 Match Coordination & Statistics**
+4. **🛠️ Administrative Capabilities**
+
+## 🎓 Acknowledgments
+- Conceptualized as part of the **CSE311 Lab Project** at **North South University (NSU)**.
+- 🏆 Appreciation extended to faculty members and peers for invaluable guidance and constructive feedback.
+
+## 📧 Contact & Support
+For further inquiries and collaboration, contact me [email](royshawonsudipto@gmail.com).
