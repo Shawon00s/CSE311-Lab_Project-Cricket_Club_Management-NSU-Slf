@@ -6,6 +6,83 @@ The **Cricket Club Management System** is a comprehensive platform designed to s
 
 This system modernizes cricket club operations by replacing manual methods with a digital solution that is efficient, user-friendly, and reliable.
 
+
+## Directory structure
+
+```
+CSE311-Lab_Project-Cricket_Club_Management-Slf
+                                            └── README.md
+                                            ├── connect.php
+                                            ├── Admin/
+                                            │   ├── admin-add-club-achievement.php
+                                            │   ├── admin-add-club-captain.php
+                                            │   ├── admin-add-club-coach.php
+                                            │   ├── admin-add-player-statistics.php
+                                            │   ├── admin-add-transfer.php
+                                            │   ├── admin-display-club-achievement.php
+                                            │   ├── admin-display-club-captain.php
+                                            │   ├── admin-display-club-coach.php
+                                            │   ├── admin-display-club.php
+                                            │   ├── admin-display-management-committee.php
+                                            │   ├── admin-display-match.php
+                                            │   ├── admin-display-player-statistics.php
+                                            │   ├── admin-display-player.php
+                                            │   ├── admin-display-playing-style.php
+                                            │   ├── admin-display-venue.php
+                                            │   ├── delete-club-captain.php
+                                            │   ├── delete-club-coach.php
+                                            │   ├── delete-management-committee.php
+                                            │   ├── delete-match.php
+                                            │   ├── delete-player-statistics.php
+                                            │   ├── delete-player.php
+                                            │   ├── delete-venue.php
+                                            │   ├── main.php
+                                            │   ├── update-allrounder.php
+                                            │   ├── update-batsman.php
+                                            │   ├── update-bowler.php
+                                            │   ├── update-club-captain.php
+                                            │   ├── update-club-coach.php
+                                            │   ├── update-club.php
+                                            │   ├── update-management-committee.php
+                                            │   ├── update-match.php
+                                            │   ├── update-player-statistics.php
+                                            │   ├── update-player.php
+                                            │   ├── update-playing-style.php
+                                            │   ├── update-venue.php
+                                            │   ├── update-wicketkeeper.php
+                                            │   └── partials/
+                                            │       ├── footer.php
+                                            │       ├── header-dark.php
+                                            │       └── header.php
+                                            ├── User-Site/
+                                            │   ├── add-club.php
+                                            │   ├── add-management-committee.php
+                                            │   ├── add-match.php
+                                            │   ├── add-player-statistics.php
+                                            │   ├── add-player.php
+                                            │   ├── add-venue.php
+                                            │   ├── display-batsman.php
+                                            │   ├── display-bowler.php
+                                            │   ├── display-club-achievement.php
+                                            │   ├── display-club-captain.php
+                                            │   ├── display-club-coach.php
+                                            │   ├── display-club.php
+                                            │   ├── display-management-committee.php
+                                            │   ├── display-match.php
+                                            │   ├── display-player-statistics.php
+                                            │   ├── display-player.php
+                                            │   ├── display-venue.php
+                                            │   ├── index.php
+                                            │   ├── landing-page.php
+                                            │   ├── login.php
+                                            │   ├── user-signup.php
+                                            │   └── partials/
+                                            │       ├── footer.php
+                                            │       └── header.php
+                                            └── resources/
+
+```
+
 ## Features
 
 ### Core Modules
