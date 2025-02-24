@@ -43,10 +43,10 @@ The **Cricket Club Management System** is a robust, web-based application archit
    - 🔑 Allows tier-based access to club and player databases with defined permissions.
 
 ## 📌 Technology Stack
-- **🖥️ Frontend**: HTML, CSS, Tailwind CSS, JavaScript
+- **🖥️ Frontend**: HTML, Tailwind CSS
 - **🗄️ Backend**: PHP
 - **🛢️ Database**: MySQL
-- **🛠️ Development Tools**: Visual Paradigm for ERD modeling, Visual Studio Code, Local server stack (XAMPP/WAMP/LAMP)
+- **🛠️ Development Tools**: Visual Paradigm for ERD modeling, Visual Studio Code, Local server stack (XAMPP)
 
 ## 📂 Project Directory Structure
 ```
@@ -69,7 +69,7 @@ CSE311-Lab_Project-Cricket_Club_Management-NSU-Slf/
 ### Entity Relationship Diagram
 <img src="Project Report/Entity Relationship Diagram.png">
 
-### Entity Relationship Diagram
+### Database Schema
 ![Project Report](Project%20Report/PNGs/Final_Project_Report-05.png)
 
 ### SQL DDL
