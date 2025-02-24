@@ -122,4 +122,4 @@ cd CSE311-Lab_Project-Cricket_Club_Management-NSU-Slf
 - 🏆 Appreciation extended to faculty members and peers for invaluable guidance and constructive feedback.
 
 ## 📧 Contact & Support
-For further inquiries and collaboration, contact me [email](royshawonsudipto@gmail.com).
+For further inquiries and collaboration, contact me [linkedin](https://www.linkedin.com/in/shawon00s/).
